@@ -1,44 +1,38 @@
-<<<<<<< HEAD
-# Expanse-Tracker-App
-=======
-# एक्सपेंस ट्रैकर ऐप
+# Expense Tracker App
 
-यह एक MERN स्टैक पर आधारित एक्सपेंस ट्रैकर ऐप्लिकेशन है जो आपको अपने खर्चों को ट्रैक करने में मदद करता है।
+This is a MERN stack-based expense tracker application designed to help you keep track of your expenses.
 
-## फीचर्स
+## Features
 
-- खर्चों को जोड़ना, देखना, अपडेट करना और हटाना
-- खर्चों को कैटेगरी के अनुसार वर्गीकृत करना
-- खर्चों का विश्लेषण और रिपोर्टिंग
-- यूजर प्रोफाइल मैनेजमेंट
+- Add, view, update, and delete expenses
+- Categorize expenses for better organization
+- Expense analysis and reporting
+- User profile management
 
-## टेक्नोलॉजीज
+## Technologies
 
 - MongoDB
 - Express.js
 - React.js
 - Node.js
 
-## सेटअप
+## Setup
 
-1. प्रोजेक्ट को क्लोन करें
-2. बैकएंड डायरेक्टरी में जाएं और निम्नलिखित कमांड चलाएं:
+1. Clone the project repository.
+2. Navigate to the backend directory and run the following commands:
    ```bash
    npm install
    npm start
-   ```
-3. फ्रंटएंड डायरेक्टरी में जाएं और निम्नलिखित कमांड चलाएं:
-   ```bash
-   npm install
-   npm start
-   ```
+3. Navigate to the frontend directory and run the following commands:
 
-## एनवायरनमेंट वेरिएबल्स
+Bash
+npm install
+npm start
+Environment Variables
+Create a .env file in the backend directory and configure the following variables:
 
-बैकएंड के लिए `.env` फाइल बनाएं और निम्नलिखित वेरिएबल्स सेट करें:
-```
+Code snippet
 MONGODB_URI=your_mongodb_uri
 PORT=5000
 JWT_SECRET=your_jwt_secret
-``` 
->>>>>>> 0bfb884 (first commit for expanse-tracker)
+
